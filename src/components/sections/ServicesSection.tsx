@@ -1,37 +1,37 @@
 
-import { ArrowRight, Globe, Smartphone, Cloud, Layout, BarChart3, HeadphonesIcon } from "lucide-react";
+import { ArrowRight, Cloud, Database, Earth, Layout, BarChart3, Droplet } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: Globe,
-    title: "Web Development",
-    description: "Custom websites and web applications designed for performance, scalability, and user experience.",
+    icon: Earth,
+    title: "Deforestation Monitoring",
+    description: "Real-time satellite monitoring of forest cover changes across Uganda, with detailed analytics on deforestation rates.",
   },
   {
-    icon: Smartphone,
-    title: "Mobile Applications",
-    description: "Native and cross-platform mobile apps that deliver seamless experiences across all devices.",
+    icon: Droplet,
+    title: "Water Quality Assessment",
+    description: "Continuous tracking of water pollution levels in lakes, rivers, and other water bodies using advanced sensing technologies.",
   },
   {
     icon: Cloud,
-    title: "Cloud Solutions",
-    description: "Scalable cloud infrastructure and services to optimize your business operations.",
+    title: "Climate Data Analysis",
+    description: "Comprehensive climate data collection and analysis to predict drought and flood patterns for early intervention.",
   },
   {
     icon: Layout,
-    title: "UI/UX Design",
-    description: "Intuitive, user-centered designs that elevate your brand and increase engagement.",
+    title: "Interactive Mapping",
+    description: "User-friendly interactive maps showing environmental changes, risk zones, and conservation areas.",
   },
   {
     icon: BarChart3,
-    title: "Digital Marketing",
-    description: "Data-driven strategies to increase visibility, attract customers, and drive growth.",
+    title: "Environmental Reporting",
+    description: "Regular reports and alerts on environmental changes, designed for stakeholders from government agencies to local communities.",
   },
   {
-    icon: HeadphonesIcon,
-    title: "Consulting Services",
-    description: "Expert advice and guidance to help you navigate the digital landscape and achieve your goals.",
+    icon: Database,
+    title: "Data Repository",
+    description: "Centralized repository of historical and current environmental data, accessible for research and conservation planning.",
   },
 ];
 
@@ -43,7 +43,7 @@ const ServicesSection = () => {
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">Our Services</h2>
           <div className="w-24 h-1 bg-company-500 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 md:max-w-3xl mx-auto">
-            We offer comprehensive digital solutions tailored to meet your specific business needs and objectives.
+            We provide comprehensive monitoring and analysis services to help Uganda build resilience against droughts and floods through environmental protection.
           </p>
         </div>
 
@@ -70,7 +70,7 @@ const ServicesSection = () => {
 
         <div className="mt-16 text-center">
           <Button className="bg-company-600 hover:bg-company-700">
-            View All Services
+            Access Environmental Data
           </Button>
         </div>
       </div>

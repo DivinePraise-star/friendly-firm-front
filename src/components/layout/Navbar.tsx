@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from "react";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X, Droplet } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
@@ -29,8 +29,9 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="/" className="flex items-center">
-              <span className={`text-2xl font-heading font-bold ${isScrolled || isMenuOpen ? 'text-company-800' : 'text-white'}`}>ACME</span>
-              <span className={`ml-1 text-2xl font-heading font-light ${isScrolled || isMenuOpen ? 'text-company-500' : 'text-company-100'}`}>Corp</span>
+              <Droplet className={`h-6 w-6 mr-2 ${isScrolled || isMenuOpen ? 'text-company-600' : 'text-company-100'}`} />
+              <span className={`text-2xl font-heading font-bold ${isScrolled || isMenuOpen ? 'text-company-800' : 'text-white'}`}>AQUAWOOD</span>
+              <span className={`ml-1 text-2xl font-heading font-light ${isScrolled || isMenuOpen ? 'text-company-500' : 'text-company-100'}`}>UGANDA</span>
             </a>
           </div>
           
@@ -43,11 +44,14 @@ const Navbar = () => {
               <a href="#services" className={`${isScrolled ? 'text-gray-700' : 'text-white'} hover:text-company-500 font-medium transition-colors`}>
                 Services
               </a>
-              <a href="#team" className={`${isScrolled ? 'text-gray-700' : 'text-white'} hover:text-company-500 font-medium transition-colors`}>
-                Our Team
+              <a href="#methodology" className={`${isScrolled ? 'text-gray-700' : 'text-white'} hover:text-company-500 font-medium transition-colors`}>
+                Methodology
               </a>
-              <a href="#testimonials" className={`${isScrolled ? 'text-gray-700' : 'text-white'} hover:text-company-500 font-medium transition-colors`}>
-                Testimonials
+              <a href="#data" className={`${isScrolled ? 'text-gray-700' : 'text-white'} hover:text-company-500 font-medium transition-colors`}>
+                Data Insights
+              </a>
+              <a href="#map" className={`${isScrolled ? 'text-gray-700' : 'text-white'} hover:text-company-500 font-medium transition-colors`}>
+                Map View
               </a>
               <a href="#contact" className={`${isScrolled ? 'text-gray-700' : 'text-white'} hover:text-company-500 font-medium transition-colors`}>
                 Contact
@@ -93,18 +97,25 @@ const Navbar = () => {
               Services
             </a>
             <a
-              href="#team"
+              href="#methodology"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-company-500"
               onClick={() => setIsMenuOpen(false)}
             >
-              Our Team
+              Methodology
             </a>
             <a
-              href="#testimonials"
+              href="#data"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-company-500"
               onClick={() => setIsMenuOpen(false)}
             >
-              Testimonials
+              Data Insights
+            </a>
+            <a
+              href="#map"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-company-500"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Map View
             </a>
             <a
               href="#contact"

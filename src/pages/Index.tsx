@@ -4,8 +4,9 @@ import Footer from "@/components/layout/Footer";
 import HeroSection from "@/components/sections/HeroSection";
 import AboutSection from "@/components/sections/AboutSection";
 import ServicesSection from "@/components/sections/ServicesSection";
-import TeamSection from "@/components/sections/TeamSection";
-import TestimonialsSection from "@/components/sections/TestimonialsSection";
+import MapSection from "@/components/sections/MapSection";
+import DataSection from "@/components/sections/DataSection";
+import MethodologySection from "@/components/sections/MethodologySection";
 import ContactSection from "@/components/sections/ContactSection";
 
 const Index = () => {
@@ -16,8 +17,9 @@ const Index = () => {
         <HeroSection />
         <AboutSection />
         <ServicesSection />
-        <TeamSection />
-        <TestimonialsSection />
+        <MethodologySection />
+        <DataSection />
+        <MapSection />
         <ContactSection />
       </main>
       <Footer />

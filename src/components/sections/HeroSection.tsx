@@ -1,5 +1,5 @@
 
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Droplet } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
@@ -12,20 +12,20 @@ const HeroSection = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="w-full md:w-1/2 mb-10 md:mb-0 animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold leading-tight mb-6">
-              Innovative Solutions for
+              Monitoring for
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-company-100 to-company-400 block">
-                Modern Businesses
+                Environmental Resilience
               </span>
             </h1>
             <p className="text-lg md:text-xl text-company-100 mb-8 md:max-w-lg">
-              We help companies transform their ideas into powerful digital experiences that drive growth and elevate their brand.
+              AQUAWOOD UGANDA uses satellite imagery and machine learning to monitor deforestation and water pollution, enhancing drought and flood resilience across Uganda.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-company-500 hover:bg-company-600 text-white font-medium px-8">
-                Get Started
+                Explore Data
               </Button>
               <Button variant="outline" size="lg" className="text-white border-white hover:bg-white/10">
-                <span>Learn More</span>
+                <span>Join Our Effort</span>
                 <ArrowRight size={18} className="ml-2" />
               </Button>
             </div>
@@ -36,8 +36,8 @@ const HeroSection = () => {
               <div className="absolute -inset-1 rounded-lg bg-gradient-to-r from-company-300 to-company-500 opacity-30 blur"></div>
               <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80" 
-                  alt="Business professionals using digital tools" 
+                  src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80" 
+                  alt="Ugandan forest and water ecosystem" 
                   className="w-full h-full object-cover rounded-lg"
                 />
               </div>
