@@ -69,8 +69,9 @@ const ContactSection = () => {
                   <div>
                     <p className="font-medium text-gray-900">Our Location</p>
                     <p className="text-gray-600 mt-1">
-                      123 Business Avenue,<br />
-                      San Francisco, CA 94107
+                      Plot 35, Nakasero,<br />
+                      Kampala, Uganda<br />
+                      P.O.BOX: 188147 Kampala GPO
                     </p>
                   </div>
                 </div>
@@ -82,8 +83,8 @@ const ContactSection = () => {
                   <div>
                     <p className="font-medium text-gray-900">Phone Number</p>
                     <p className="text-gray-600 mt-1">
-                      +1 (555) 123-4567<br />
-                      +1 (555) 987-6543
+                      +256 760 101469<br />
+                      +256 778 004967
                     </p>
                   </div>
                 </div>
@@ -95,8 +96,7 @@ const ContactSection = () => {
                   <div>
                     <p className="font-medium text-gray-900">Email Address</p>
                     <p className="text-gray-600 mt-1">
-                      contact@acmecorp.com<br />
-                      info@acmecorp.com
+                      aquawooduganda@gmail.com
                     </p>
                   </div>
                 </div>
@@ -108,8 +108,8 @@ const ContactSection = () => {
                   <div>
                     <p className="font-medium text-gray-900">Business Hours</p>
                     <p className="text-gray-600 mt-1">
-                      Monday - Friday: 9AM - 6PM<br />
-                      Saturday: 10AM - 2PM
+                      Monday - Friday: 9AM - 5PM<br />
+                      Saturday: 9AM - 1PM
                     </p>
                   </div>
                 </div>

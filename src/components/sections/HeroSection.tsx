@@ -18,7 +18,7 @@ const HeroSection = () => {
               </span>
             </h1>
             <p className="text-lg md:text-xl text-company-100 mb-8 md:max-w-lg">
-              AQUAWOOD UGANDA uses satellite imagery and machine learning to monitor deforestation and water pollution, enhancing drought and flood resilience across Uganda.
+              AQUAWOOD GROUP UGANDA LTD uses satellite imagery and machine learning to monitor deforestation and water pollution, enhancing drought and flood resilience across Uganda.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-company-500 hover:bg-company-600 text-white font-medium px-8">
@@ -37,7 +37,7 @@ const HeroSection = () => {
               <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg overflow-hidden flex justify-center items-center p-6">
                 <img 
                   src="/lovable-uploads/36679d31-08af-49c7-b76e-82d9c57bfeb8.png" 
-                  alt="AQUAWOOD UGANDA Logo" 
+                  alt="AQUAWOOD GROUP UGANDA LTD Logo" 
                   className="w-48 h-48 object-contain"
                 />
               </div>

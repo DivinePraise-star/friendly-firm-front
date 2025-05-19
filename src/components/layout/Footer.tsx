@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-4">
               <span className="text-2xl font-heading font-bold text-white">AQUAWOOD</span>
-              <span className="ml-1 text-2xl font-heading font-light text-company-300">UGANDA</span>
+              <span className="ml-1 text-2xl font-heading font-light text-company-300">GROUP UGANDA LTD</span>
             </div>
             <p className="mb-4 text-gray-400">
               Utilizing innovative technology to monitor deforestation and water pollution, enhancing drought and flood resilience across Uganda.
@@ -88,24 +88,25 @@ const Footer = () => {
               <div className="flex items-start">
                 <MapPin className="mr-3 h-5 w-5 text-company-400 flex-shrink-0 mt-1" />
                 <p className="text-gray-400">
-                  Plot 123, Environmental Way, <br />
-                  Kampala, Uganda
+                  Plot 35, Nakasero, <br />
+                  Kampala, Uganda<br />
+                  P.O.BOX: 188147 Kampala GPO
                 </p>
               </div>
               <div className="flex items-center">
                 <Phone className="mr-3 h-5 w-5 text-company-400" />
-                <p className="text-gray-400">+256 123 456 789</p>
+                <p className="text-gray-400">+256 760 101469, +256 778 004967</p>
               </div>
               <div className="flex items-center">
                 <Mail className="mr-3 h-5 w-5 text-company-400" />
-                <p className="text-gray-400">info@aquawooduganda.org</p>
+                <p className="text-gray-400">aquawooduganda@gmail.com</p>
               </div>
             </div>
           </div>
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
-          <p>© {new Date().getFullYear()} AQUAWOOD UGANDA. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} AQUAWOOD GROUP UGANDA LTD. All rights reserved.</p>
         </div>
       </div>
     </footer>
