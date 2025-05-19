@@ -1,5 +1,5 @@
 
-import { ArrowRight, Droplet } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
@@ -34,11 +34,11 @@ const HeroSection = () => {
           <div className="w-full md:w-5/12 animate-fade-in-up">
             <div className="relative">
               <div className="absolute -inset-1 rounded-lg bg-gradient-to-r from-company-300 to-company-500 opacity-30 blur"></div>
-              <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg overflow-hidden">
+              <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg overflow-hidden flex justify-center items-center p-6">
                 <img 
-                  src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80" 
-                  alt="Ugandan forest and water ecosystem" 
-                  className="w-full h-full object-cover rounded-lg"
+                  src="/lovable-uploads/36679d31-08af-49c7-b76e-82d9c57bfeb8.png" 
+                  alt="AQUAWOOD UGANDA Logo" 
+                  className="w-48 h-48 object-contain"
                 />
               </div>
             </div>

@@ -29,7 +29,11 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="/" className="flex items-center">
-              <Droplet className={`h-6 w-6 mr-2 ${isScrolled || isMenuOpen ? 'text-company-600' : 'text-company-100'}`} />
+              <img 
+                src="/lovable-uploads/36679d31-08af-49c7-b76e-82d9c57bfeb8.png" 
+                alt="AQUAWOOD UGANDA Logo" 
+                className="h-10 w-10 mr-2" 
+              />
               <span className={`text-2xl font-heading font-bold ${isScrolled || isMenuOpen ? 'text-company-800' : 'text-white'}`}>AQUAWOOD</span>
               <span className={`ml-1 text-2xl font-heading font-light ${isScrolled || isMenuOpen ? 'text-company-500' : 'text-company-100'}`}>UGANDA</span>
             </a>
@@ -61,7 +65,7 @@ const Navbar = () => {
           
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="bg-company-600 hover:bg-company-700">Get Started</Button>
+            <Button className="bg-company-600 hover:bg-company-700 text-white">Get Started</Button>
           </div>
           
           {/* Mobile menu button */}
@@ -125,7 +129,7 @@ const Navbar = () => {
               Contact
             </a>
             <div className="pt-2">
-              <Button className="w-full bg-company-600 hover:bg-company-700">Get Started</Button>
+              <Button className="w-full bg-company-600 hover:bg-company-700 text-white">Get Started</Button>
             </div>
           </div>
         </div>
