@@ -3,7 +3,7 @@ import { Linkedin, Twitter, Mail } from "lucide-react";
 
 const team = [
   {
-    name: "Alex Johnson",
+    name: "SENJIYUNVA MESARCH",
     role: "CEO & Founder",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80",
     bio: "Alex brings over 15 years of technology leadership and entrepreneurial experience to ACME Corp.",

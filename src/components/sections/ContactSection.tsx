@@ -136,7 +136,7 @@ const ContactSection = () => {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-company-500 focus:border-company-500"
-                      placeholder="John Doe"
+                      placeholder="Enter name"
                     />
                   </div>
                   
@@ -152,7 +152,7 @@ const ContactSection = () => {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-company-500 focus:border-company-500"
-                      placeholder="john@example.com"
+                      placeholder="Enter email"
                     />
                   </div>
                   
@@ -167,7 +167,7 @@ const ContactSection = () => {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-company-500 focus:border-company-500"
-                      placeholder="+1 (555) 123-4567"
+                      placeholder="Enter phone number"
                     />
                   </div>
                   
